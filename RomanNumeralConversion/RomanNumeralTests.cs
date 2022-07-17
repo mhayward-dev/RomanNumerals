@@ -313,7 +313,7 @@ namespace RomanNumeralConversion
         }
 
         [Fact]
-        public void Should_convert_2956_to_M()
+        public void Should_convert_2956_to_MMCMLVI()
         {
             var expectedOutput = "MMCMLVI";
             var input = 2956;
