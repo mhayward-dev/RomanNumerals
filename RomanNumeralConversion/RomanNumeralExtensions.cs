@@ -12,7 +12,7 @@ namespace RomanNumeralConversion
 
             var sBuilder = new StringBuilder();
             var numeralRanges = new List<RomanNumeralRange> {
-                new RomanNumeralRange { Unit = 1000, Symbol = 'M', UpperLimitSymbol = 'X', HalfLimitSymbol = 'D' },
+                new RomanNumeralRange { Unit = 1000, Symbol = 'M' },
                 new RomanNumeralRange { Unit = 100, Symbol = 'C', UpperLimitSymbol = 'M', HalfLimitSymbol = 'D' },
                 new RomanNumeralRange { Unit = 10, Symbol = 'X', UpperLimitSymbol = 'C', HalfLimitSymbol = 'L' },
                 new RomanNumeralRange { Unit = 1, Symbol = 'I', UpperLimitSymbol = 'X', HalfLimitSymbol = 'V' }
